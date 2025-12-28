@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+    <link rel="stylesheet" type="text/css"  href="responsive.css">
+    <link rel="stylesheet" href="./fonts/blinker/">
+    <link rel="stylesheet" href="./fonts/roboto/">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- -----Header------>
+    <header>
+      <nav class="navbar">
+        <div class="container ">
+          <a class="navbar-brand" href="#"><img src="./images/Group 1.png" width="60px"></a>
+
+          <!-- <button class="navbar-toggler" id="navBtn">
+            ☰
+          </button> -->
+          <button class="navbar-toggler tog-btn" id="navBtn">
+            <span><svg class="icon-menu"xmlns="http://www.w3.org/2000/svg" width="25" height="25" margin-top="10px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+            </span>
+            <span>
+              <svg class="cross icon-close"xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </button>
+
+          <div class="navbar-collapse" id="navMenu">
+            <ul class="navbar-nav">    
+              <li ><a class="nav-link blinkerSemibold" href="#">ABOUT US</a></li>
+              <li><a class="nav-link blinkerSemibold " href="#">INGREDIENTS</a></li>
+              <li><a class="nav-link blinkerSemibold" href="#">GLOBAL PARTNERSHIPS</a></li>
+              <li><a class="nav-link blinkerSemibold" href="#">SOLUTIONS</a></li>
+              <li><a class="nav-link blinkerSemibold" href="#">BLOGS</a></li>
+            </ul>
+          </div>
+
+          <form class="search-box">
+              <button type="submit" class="head-btn blinker">   <img src="./images/call--icon.svg"><p>Contact Us</p></button>
+              <img src="./images/search--icon.svg">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="search-icon"width="25" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg> -->
+          </form>
+
+          
+
+          
+        </div>
+      </nav>
+    </header>
+
+    <!-- ------Home------->
+  <div class="home ">
+   <div class="slider">
+      <div class="carousel slide">
+        <div class="carousel-item active">
+        <div class="container px-10">
+          <div class="carousel-caption left home-caption">
+            <h2 class="blinkerBold">Tailored Diary & Nutrition Solutions with Global Excellence</h2>
+            <p class="para">Ace International empowers industries with high-quality dairy proteins, powders, and ingredient solutions, trusted worldwide.</p>
+            <a class="custom-btn blinker" href="#">Explore Our Solutions</a>
+
+          </div>
+        </div>
+        <div class="carousel-indicators simple-indicators">
+          
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+            class="active" aria-current="true" aria-label="Slide 1"></button>
+
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+      </div>
+        </div>
+      </div>
+      <div class="carousel2 slide">
+        <div class="carousel-item ">
+          
+        <div class="container px-10">
+          <div class="carousel-caption right home-caption">
+            <h2 class="blinkerBold">Innovation and Trust- The Ingredients of Growth</h2>
+            <p class="para">
+                With over four decades of expertise, Ace International delivers sustainable ingredient solutions, from dairy proteins and powders to plant-based alternatives, trusted by both businesses and partners for consistency and excellence.
+              </p>
+            <a class="custom-btn blinker" href="#">Explore Our Ingredients</a>
+          </div>
+        </div>
+        <div class="carousel-indicators simple-indicators">
+         
+         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+           aria-current="false" aria-label="Slide 1"></button>
+
+         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="active"
+           aria-label="Slide 2"></button>
+     </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+
+<!-- -------Second------->
+  <div class="first">
+    <div class="solution">
+      <div class="container">
+        <div class="sol-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <h2 class="blinkerSemibold ">Tailored Solutions. Trusted<br> Partnerships. Sustainable Growth.</h2>
+          <p class="para">Ace International stands as a global benchmark for innovation and expertise. We deliver high-quality, sustainable ingredient solutions built on trust, collabration, and excellence, empowering businesses across food, nutrition, and pharmaceuticals.</p>
+          <div class="second-btn" max-width="fit-content">
+          <a class="custom-btn blinker" href="#">Discover Our Journey</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="slide-items" >
+          <div class="slide1 slides" data-aos="fade">
+            <div class="slide-img">
+            <img src="./images/item1.jpg">
+            </div>
+            <div class="slide-head">
+            <h3 class="blinkerSemibold">Quality with Purpose</h3>
+             </div>
+            <div class="slide-p">
+             <p class="para">Every ingredient is crafted from carefully selected raw materials that meet global quality benchmark.</p>
+            </div>
+          </div>
+          <div class="slide2 slides" >
+            <div class="slide-img">
+             <img src="./images/item2.jpg">
+            </div>
+            <div class="slide-head">
+            <h3 class="blinkerSemibold">Precision You Can Trust</h3>
+             </div>
+            <div class="slide-p">            
+              <p class="para">From diary proteins to plant based solutions our portfolio delivers consistent performance and functionality</p>
+            </div>
+          </div>
+
+          <div class="slide3 slides" >
+            <div class=" slide-img ">
+             <img src="./images/item3.jpg">
+            </div>
+            <div class="slide-head">
+             <h3 class="blinkerSemibold">Innovation that Endures</h3>
+            </div>
+            <div class="slide-p">
+              <p class="para">Backed by R&D expertise and global partnerships, we deliver solutions that adapt with industry needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+
+
+
+<!-- -----fourth--- -->
+<div class="container">
+  <div class="fourth">
+    <div class="fourth-content">
+    <h2 class="mod-heading--h2 mb-0 blinkerSemibold" >Ingredient Expertise Backed by Innovation</h2>
+    <p class="para">Ace International stands as a global benchmark for innovation and expertise. We deliver high-quality, sustainable ingredient solutions built on trust, collabration, and excellence, empowering businesses across food, nutrition, and pharmaceuticals.</p>
+    <a class="btn custom-btn blinker" href="#">View all Ingredients</a>
+    </div>
+
+  </div>
+  
+</div>
+<div class="fifth">
+ <div class="container">
+  <div class="ingredient-box">
+    <div class="ingredient-item ingredient-left">
+      <div class=" item item1" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+       <h3 class="blinkerSemibold">Diary Proteins</h3>
+       <p class="para">Functional whey and casein proteins crafted for performance and nutrition</p>
+       <a href="" class="blinker">Know More>></a>
+      </div>
+      <div class="item item2" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+        <h3 class="blinkerSemibold">Diary Powders</h3>
+       <p class="para">Whole, skimmed, and fat filled powders ensuring stability, taste, and consistency.</p>
+       <a href="" class="blinker">Know More>></a>
+      </div>
+      <div class="item item3" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+        <h3 class="blinkerSemibold">Plant-based Proteins</h3>
+       <p class="para">Sustainability alternatives for bevarages, snacks, and diary free innovation.</p>
+       <a href="" class="blinker">Know More>></a>
+      </div>
+    </div>
+    <div class="ingredient-item ingredient-mid">
+      <img src="./images/cream-powder.png" class="image--default">
+      <!-- <img src="./images/back-packaging-mobile.jpg" class="image--hover"> -->
+    </div>
+    <div class="ingredient-item ingredient-right">
+      <div class=" item item1" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+       <h3 class="blinkerSemibold">Diary Carbohydrates</h3>
+       <p class="para">Lactose and permeates that suppost sweetness, textture and reliable processing performance.</p>
+       <a href="" class="blinker">Know More>></a>
+      </div>
+      <div class="item item2" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+        <h3 class="blinkerSemibold">Diary Fats</h3>
+       <p class="para">Rich, stable fats designed for bakery, nutrition, and culinary excellence.</p>
+       <a href="" class="blinker">Know More>></a>
+      </div>
+      <div class="item item3" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+        <h3 class="blinkerSemibold">Functional Fats & Creamers</h3>
+       <p class="para">Comprehensive solutions for texture, emulsification, balance, and versatility across applications.</p>
+       <a href="" class="blinker">Know More>></a>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- ----Sixth--- -->
+ <div class="sixth" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div class="animate-img"></div>
+    <div class="animate-card" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="animate-content">
+        <h2 class="blinkerSemibold heading--h2">Partnerships That Drive Global Growth</h2>
+        <p class="para">Ace International builds partnerships across borders, ensuring reliability, innovation, and sustainable growth. As a trusted ingredient supplier from India, we enable businesses worldwide to access solutions they can depend on</p>
+        <a href="" class="second-btn custom-btn blinker">Discover our Journey</a>  
+      </div>
+    </div>
+ </div>
+
+
+  <div class="container">
+    <div class="fourth the-impact">
+      <div class="fourth-content modify" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <img src="./images/cup-partner.png" height="200px" width="200px">
+      <h2 class="blinkerSemibold" data-aos="fade-up" data-aos-anchor-placement="center-bottom">From Innovation to Real-World<br> Impact</h2>
+      <p class="para" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Our ingredients power industries from infant and sports nutrition to bakery and clinical applications. With expertise and technical precision, Ace International transforms ingredient potential into better outcomes.</p>
+      <a class="btn custom-btn blinker" data-aos="fade-up" data-aos-anchor-placement="center-bottom" href="#">See Our Solutions</a>
+      </div>
+
+    </div>
+  </div>
+
+
+<div class="container">
+  <div class=" row impact-card">
+    <div class="imp-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="imp-content">
+        <h4 class="blinkerSemibold">Product Applications</h4>
+        <p class="roboto">Tailored solutions for industry-specific needs with a focus on safety, quality, and excellence</p>
+        <a href="" class="second-btn impact-btn custom-btn blinker" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Explore More</a>  
+        
+        <img src="./images/beyond-1.png" height='300px' >
+      </div>
+      
+      
+    </div>
+    <div class="imp-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="imp-content">
+          <h4 class="blinkerSemibold">R&D Quality</h4>
+          <p class="roboto">Backed by strong R&amp;D capabilities, formulation undergoes testing to ensure reliability and performance</p>
+          <a href="" class=" impact-btn custom-btn second-btn blinker"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">Explore More</a>  
+           <img src="./images/beyond-2.png" height="550px">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ----blog section----->
+ <div class="blog-section">
+  <div class="container">
+    <div class="blog-heading">
+      <h2 class="heading--h2 blinkerSemibold">What's New at Ace</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="blog-items" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="blog">
+        <img src="./images/blog-1.jpg">
+        <div class="mini-blog">
+          <small class="small">Aug 11, 2020</small>
+          <small class="tag blinkerSemibold">Ingredient spotlight</small>
+        </div>
+        <div class="blog-content">
+          <h5 class="mt-2 blinkerSemibold">Lactoferrin: The Bioactive Protein Driving the Next Wave of Immune Nutrition</h5>
+          <a href="" class="blinker">Read More Insights>></a>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./images/blog-2.jpg">
+         <div class="mini-blog">
+          <small class="small">Oct 04, 2025</small>
+          <small class="tag blinkerSemibold">Press Release</small>
+        </div>
+        <div class="blog-content">
+          <h5 class="mt-2 blinkerSemibold">Baking with Proteins: How Whey and Milk Powders Elevate Breads, Cakes, and Cookies</h5>
+          <a href="" class="blinker">Read More Insights>></a>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./images/blog-3.jpg">
+         <div class="mini-blog">
+          <small class="small">Oct 04, 2025</small>
+          <small class="tag blinkerSemibold">Press Release</small>
+        </div>
+        <div class="blog-content">
+          <h5 class="mt-2 blinkerSemibold">The Future of High-Protein RTE &amp; Confectionery: Whey Powders and Nutrition</h5>
+          <a href="" class="blinker">Read More Insights>></a>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./images/blog-1.jpg">
+        <div class="mini-blog">
+          <small class="small">Aug 11, 2020</small>
+          <small class="tag blinkerSemibold">Ingredient spotlight</small>
+        </div>
+        <div class="blog-content">
+          <h5 class="mt-2 blinkerSemibold">Lactoferrin: The Bioactive Protein Driving the Next Wave of Immune Nutrition</h5>
+          <a href="" class="blinker">Read More Insights>></a>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./images/blog-2.jpg">
+         <div class="mini-blog">
+          <small class="small">Oct 04, 2025</small>
+          <small class="tag blinkerSemibold">Press Release</small>
+        </div>
+        <div class="blog-content">
+          <h5 class="mt-2 blinkerSemibold">Baking with Proteins: How Whey and Milk Powders Elevate Breads, Cakes, and Cookies</h5>
+          <a href="" class="blinker">Read More Insights>></a>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./images/blog-3.jpg">
+         <div class="mini-blog">
+          <small class="small">Oct 04, 2025</small>
+          <small class="tag blinkerSemibold">Press Release</small>
+        </div>
+        <div class="blog-content">
+          <h5 class="mt-2 blinkerSemibold">The Future of High-Protein RTE &amp; Confectionery: Whey Powders and Nutrition</h5>
+          <a href="" class="blinker">Read More Insights>></a>
+        </div>
+      </div>
+      
+      
+      
+      
+    </div>
+  </div>
+ </div>
+
+<!-- ---last---- -->
+ <div class="last">
+   <div class="last-img">
+    <img src="./images/dude-img-new-1.png" height="169px" width="189px">
+   </div>
+   <div class="fourth">
+      <div class="fourth-content modify2">
+      
+      <h2 class="blinkerSemibold">Stay Ahead with Ingredient Insights & Innovation</h2>
+      <p class="para">Subscribe to receive updates on ingredient trends, research breakthroughs, and product launches from<br> Ace International.</p>
+      <input type="email" class="input" placeholder="Your Email Address"/>
+      <a class="btn custom-btn blinker  " href="#" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Subscribe</a>
+      </div>
+
+    </div>
+ </div>
+
+ <!-- ---footer----->
+  <div class="container">
+    <div class="footer">
+      <div class="footer-left">
+        <div class="logo"><img src="./images/Group 1.png"></div>
+        <div class="location"><img src="./images/location--ace.png" height="30px" width="30px"><p class="roboto para">Office No.406, 4th Floor, Worldmark 2, Asset No.8, Aerocity Hospitality District, New Delhi – 110037, India</p></div>
+        <div class="call"><img src="./images/call--ace.png" height="30px" width="30px"><p class="roboto">+91-11-46508671</p></div>
+      </div>
+      <div class="mid">
+        <div class="mid-left"><h4 class="blinkerSemibold">Quick Links</h4>
+          <ul>
+            <li><a href=""></a>About</li>
+            <li><a href=""></a>Ingredients</li>
+            <li><a href=""></a>Solutions</li>
+            <li><a href=""></a>Contact</li>
+          </ul>
+        </div>
+        <dv class="mid-right"><h4 class="blinkerSemibold">Legacy</h4>
+           <ul>
+            <li><a href=""></a>Legal Policy</li>
+            <li><a href=""></a>Cookie Policy</li>
+            <li><a href=""></a>Terms of Services</li>
+            </ul>
+        </dv>
+      </div>
+      <div class="footer-right">
+        <h3 class="blinkerSemibold">Connect:</h3>
+        <div class="footer-icon">
+          <img src="./images/linkdin.svg" height="35px" width="35px" >
+        <img src="./images/mail.svg" height="40px" width="40px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <!-- Main slider initialization -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows:false,
+      });
+    });
+    </script>
+    
+    <!-- Responsive cards slider initialization - FIXED -->
+     <script>
+       $(document).ready(function(){
+        function slickInit(){
+          if ($(window).width() < 992){
+            // Initialize slick only if not already initialized
+            if (!$('.slide-items').hasClass('slick-initialized')){
+              $('.slide-items').slick({
+                dots: false,
+                arrows: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                  {
+                    breakpoint: 769,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
+              });
+            }
+          }
+          else {
+            // Destroy slick if it's initialized
+            if ($('.slide-items').hasClass('slick-initialized')){
+              $('.slide-items').slick('unslick');
+            }
+          }
+        }
+        
+        // Initialize on page load
+        slickInit();
+        
+        // Re-initialize on window resize
+        $(window).on('resize', function(){
+          slickInit();
+        });
+       });
+    </script>  
+
+    <!-- <script>
+       $(document).ready(function(){
+        function slickInit(){
+          if ($(window).width() < 992){
+            // Initialize slick only if not already initialized
+            if (!$('.blog-items').hasClass('slick-initialized')){
+              $('.blog-items').slick({
+                dots: false,
+                arrows: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                  {
+                    breakpoint: 768,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
+              });
+            }
+          }
+          else {
+            // Destroy slick if it's initialized
+            if ($('.blog-items').hasClass('slick-initialized')){
+              $('.blog-items').slick('unslick');
+            }
+          }
+        }
+        
+        // Initialize on page load
+        slickInit();
+        
+        // Re-initialize on window resize
+        $(window).on('resize', function(){
+          slickInit();
+        });
+       });
+    </script>   -->
+<script type="text/javascript">
+      $(document).ready(function () {
+        $(".blog-items").slick({
+          slidesToShow: 3,
+          infinite: true,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 998,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 778,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  const navBtn = document.getElementById("navBtn");
+  const navMenu = document.getElementById("navMenu");
+
+  navBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+    navBtn.classList.toggle("active");
+    // navBtn.style.backgroundColor=("#fff");
+   
+  });
+  document.addEventListener("click",(e)=>{
+   if(!navMenu.contains(e.target) && !navBtn.contains(e.target)){
+    navMenu.classList.remove("open");
+    navBtn.classList.remove("active");
+    
+
+   }
+  });
+</script>
+
+<script type="text/javascript" src="./assets/script.js"></script>
+    
+</body>
+</html>
